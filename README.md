@@ -21,7 +21,7 @@ Tech Stack
 
 Getting Started
 1. Clone the repo
-git clone https://github.com/MasonKaing/discord-gemini-bot.git
+git clone https://github.com/MasonKaing/discord-gemini-bot.git \
 cd discord-gemini-bot.git
 
 2. Install dependencies
