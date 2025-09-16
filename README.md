@@ -42,20 +42,20 @@ Commands
 
 ^hello (say hello to the bot.) \
 ^dm @user "msg" (DM the user mentioned the message) \
-^aidm @user "prompt" (DM the user mentioned a AI generated paragraph based off the prompt) \ 
+^aidm @user "prompt" (DM the user mentioned a AI generated paragraph based off the prompt) \
 ^ask "question" (Ask Gemini a question and receive an answer) \
 ^poll "question for poll" (Creates a poll using reaction system)
 
 Hardcoded Commands (won't work for you, mainly for my testing purposes) \
 ^assign (assigns the author a role called "stinky" if already made in server) \
 ^remove (removes the "stinky" role) \
-^secret (if user has stinky role it will work, if not bot will say no perms.) \
+^secret (if user has stinky role it will work, if not bot will say no perms.) 
 
 Event reactions
 
 If bot is ready, it will print that it is ready \
 If user joins server, it will dm user "You stink @user" \
-If message is sent, it will check for the word "poo" and if it occurs it will delete the message \
+If message is sent, it will check for the word "poo" and if it occurs it will delete the message 
 
 That's all \
 use this for whatever
