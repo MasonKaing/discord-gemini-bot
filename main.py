@@ -11,7 +11,7 @@ import os
 #dotenv is secure to keep stuff private
 load_dotenv()
 discordToken = os.getenv("DISCORD_TOKEN")
-geminiToken = os.getenv("GEMINI_TOKEN")
+geminiKey = os.getenv("GEMINI_KEY")
 
 
 #creating handler for files. File name discord log mode w means writing
@@ -21,7 +21,7 @@ intents.message_content = True
 intents.members = True
 
 #genai for token to work and establish model
-genai.configure(api_key=geminiToken)
+genai.configure(api_key=geminiKey)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 #make bot and have a command prefix with intents
@@ -127,4 +127,5 @@ async def ask(ctx, *, question):
     await thinking_message.edit(content=answer)
         
     
+
 bot.run(discordToken, log_handler=handler, log_level=logging.DEBUG)
