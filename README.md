@@ -24,10 +24,10 @@ Getting Started
 git clone https://github.com/MasonKaing/discord-gemini-bot.git \
 cd discord-gemini-bot
 
-2. Install dependencies
+2. Install dependencies \
 pip install -r .\requirements.txt
 
-3. Add your tokens
+3. Add your tokens \
 Create a .env file in the root folder: \
 This is where if you haven't to get your own API keys. \
 DISCORD_TOKEN=your-discord-bot-token-here \
