@@ -42,9 +42,9 @@ Commands
 
 ^hello (say hello to the bot.) \
 ^dm @user "msg" (DM the user mentioned the message) \
-^aidm @user "prompt" (DM the user mentioned a AI generated paragraph based off the prompt) \
+^aidm @user "prompt" (DM the user mentioned a AI generated paragraph based off the prompt) \ 
 ^ask "question" (Ask Gemini a question and receive an answer) \ 
-^poll "question for poll" (Creates a poll using reaction system) \
+^poll "question for poll" (Creates a poll using reaction system) \ 
 
 Hardcoded Commands (won't work for you, mainly for my testing purposes) \
 ^assign (assigns the author a role called "stinky" if already made in server) \
