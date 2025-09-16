@@ -21,11 +21,11 @@ Tech Stack
 
 Getting Started
 1. Clone the repo
-git clone https://github.com/<your-username>/<your-repo-name>.git \
-cd <your-repo-name>
+git clone https://github.com/MasonKaing/discord-gemini-bot.git
+cd discord-gemini-bot.git
 
 2. Install dependencies
-pip install -r requirements.txt
+pip install -r .\requirements.txt
 
 3. Add your tokens
 Create a .env file in the root folder: \
