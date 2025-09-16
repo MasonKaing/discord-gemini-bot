@@ -27,7 +27,6 @@ pip install -r requirements.txt
 3. Add your tokens
 Create a .env file in the root folder:
 This is where if you haven't to get your own API keys.
-
 DISCORD_TOKEN=your-discord-bot-token-here
 GEMINI_API_KEY=your-gemini-api-key-here
 
