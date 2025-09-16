@@ -11,7 +11,7 @@ This project started as an experiment to learn how to create a discord bot, but 
 
 Features
 - AI responses using Google’s Gemini API
-- Custom commands like ^ask for question answering
+- Custom commands like ^ask for question asking and getting an answer
 - Ability to send DMs to other users. (^dm and ^aidm)
 
 Tech Stack
