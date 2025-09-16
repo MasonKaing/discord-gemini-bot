@@ -20,7 +20,7 @@ Tech Stack
 [Google Generative AI (Gemini)](https://ai.google.dev)
 
 Getting Started
-1. Clone the repo
+1. Clone the repo \
 git clone https://github.com/MasonKaing/discord-gemini-bot.git \
 cd discord-gemini-bot
 
