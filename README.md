@@ -35,7 +35,7 @@ GEMINI_API_KEY=your-gemini-api-key-here
 
 4. Invite the bot to discord server
 
-5. Run the bot
+5. Run the bot \
 python main.py
 
 Commands
