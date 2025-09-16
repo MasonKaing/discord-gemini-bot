@@ -1,6 +1,9 @@
 # discord-gemini-bot
 Experimental: A Python Discord bot that answers questions and DMs users using Gemini AI
 
+⚠️ Note: This bot uses Google’s Gemini API. You need your own API key to run it.  
+Please follow Google’s API Terms of Service when using this project.
+
 Discord Bot with Gemini API
 
 A simple Discord bot built with Python, discord.py, and Google’s Gemini API. \
